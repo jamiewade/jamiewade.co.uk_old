@@ -15,6 +15,7 @@
     "clean": "gatsby clean"
   },
   "dependencies": {
+    "autoprefixer": "^10.2.3",
     "gatsby": "^2.26.1",
     "gatsby-plugin-postcss": "^3.6.0",
     "postcss": "^8.2.4",
