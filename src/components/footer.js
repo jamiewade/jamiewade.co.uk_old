@@ -5,7 +5,7 @@ const today = new Date();
 
 export default function Footer() {
     return (
-        <footer className={"text-gray-400 text-center text-sm"}>
+        <footer className={"pt-8 text-gray-400 text-center text-sm"}>
             <div className={"container"}>
                 <div className={"grid gap-3 border-t border-gray-100 py-6 md:flex md:justify-between"}>
                     <div className={"md:order-2"}>
