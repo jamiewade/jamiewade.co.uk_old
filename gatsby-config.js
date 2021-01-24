@@ -3,6 +3,7 @@ module.exports = {
         title: "Jamie Wade",
     },
     plugins: [
+        'gatsby-plugin-react-helmet',
         {
             resolve: 'gatsby-plugin-manifest',
             options: {

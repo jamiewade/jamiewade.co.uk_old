@@ -1,4 +1,5 @@
 import React from "react"
+import { Helmet } from "react-helmet"
 import Content from "../components/content"
 import Footer from "../components/footer"
 import memoji from "../images/memoji.png"
@@ -6,6 +7,11 @@ import memoji from "../images/memoji.png"
 export default function Home() {
     return (
         <>
+            <Helmet>
+                <title>Welcome | Jamie Wade</title>
+                <meta name="description" content="Jamie Wade is a Front-end Developer based in the UK. Jamie has years of experience working with Craft CMS, as well as experience with using tools such as Gatsby, Tailwind, Shopify, Vue, and Laravel." />
+            </Helmet>
+
             <div class={"flex flex-col bg-white text-gray-600 w-full h-full"}>
                 <Content>
                     <div className={"text-center sm:mx-auto sm:max-w-2xl"}>
