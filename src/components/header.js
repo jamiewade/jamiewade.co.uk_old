@@ -2,10 +2,10 @@ import React from "react"
 
 export default function Header() {
     return (
-        <footer>
+        <header>
             <div className={"container"}>
                 Header content
             </div>
-        </footer>
+        </header>
     )
 }
