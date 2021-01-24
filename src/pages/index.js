@@ -22,7 +22,7 @@ export default function Home() {
 
                         <h1 className={"mb-3 font-bold text-gray-800 text-3xl sm:mb-4 sm:text-4xl md:text-5xl"}>Nice to meet you <span role={"img"} aria-label={"Waving hand emoji"}>👋</span></h1>
 
-                        <p className={"mb-2 sm:mb-3 sm:text-lg md:text-xl"}>I'm Jamie Wade. I'm a front-end developer based in the UK, working with Craft CMS, Tailwind, and Gatsby.</p>
+                        <p className={"mb-2 sm:mb-3 sm:text-lg md:text-xl"}>I'm Jamie Wade. I'm a Front-end Developer based in the UK, working with Craft CMS, Tailwind, and Gatsby.</p>
 
                         <p className={"mb-8 text-gray-400 sm:mb-10 md:mb-10 md:text-lg"}>I also have experience with Shopify, Vue, and Laravel.</p>
 
