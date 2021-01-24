@@ -1,14 +1,18 @@
-import * as React from "react"
+import React from "react"
+import Content from "../components/content"
+import Footer from "../components/footer"
+import Header from "../components/header"
 
-const IndexPage = () => {
+export default function Home() {
     return (
-        <main>
-            <div className={"mt-8 container"}>
-                <h1 className={"mb-2 font-bold text-4xl"}>Hello world!</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias amet, consequuntur delectus dolor dolores ducimus est ex illo, itaque molestiae natus nobis nulla numquam optio porro provident quis, sint ut!</p>
-            </div>
-        </main>
-    )
-}
+        <>
+            <Header />
 
-export default IndexPage
+            <Content>
+                <h1>I’m in a layout!</h1>
+            </Content>
+
+            <Footer />
+        </>
+    );
+}
