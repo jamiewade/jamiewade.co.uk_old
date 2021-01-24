@@ -5,7 +5,7 @@ const today = new Date();
 
 export default function Footer() {
     return (
-        <footer className={"mt-auto text-gray-400 text-sm"}>
+        <footer className={"text-gray-400 text-sm"}>
             <div className={"flex flex-col py-6 text-center container sm:py-8"}>
                 <div>
                     <p>Built with &hearts; using Gatsby & Tailwind</p>
