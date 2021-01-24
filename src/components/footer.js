@@ -17,11 +17,15 @@ export default function Footer() {
                     </div>
 
                     <div className={"md:order-3"}>
-                        <img src={gitHub}
-                             alt={"Follow me on GitHub"}
-                             className={"block mx-auto w-6"}
-                             title={"Follow me on GitHub"}
-                             loading={"lazy"}/>
+                        <a href="https://github.com/jamiewade"
+                           rel="noreferrer"
+                           target={"_blank"}>
+                            <img src={gitHub}
+                                 alt={"Follow me on GitHub"}
+                                 className={"block mx-auto w-6"}
+                                 title={"Follow me on GitHub"}
+                                 loading={"lazy"} />
+                        </a>
                     </div>
                 </div>
             </div>
