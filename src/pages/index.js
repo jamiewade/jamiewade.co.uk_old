@@ -16,10 +16,11 @@ class IndexPage extends React.Component {
             <>
                 <Helmet>
                     <title>Welcome | Jamie Wade</title>
-                    <meta name="description" content="Jamie Wade is a Front-end Developer based in the UK. Jamie has years of experience working with Craft CMS, as well as experience with using tools such as Gatsby, Alpine.js, Tailwind, Shopify, Vue, and Laravel." />
+                    <meta name={"description"}
+                          content={"Jamie Wade is a Front-end Developer based in the UK. Jamie has years of experience working with Craft CMS, as well as experience with using tools such as Gatsby, Alpine.js, Tailwind, Shopify, Vue, and Laravel."} />
                 </Helmet>
 
-                <div class={"flex flex-col bg-white text-gray-600 w-full h-full"}>
+                <div className={"flex flex-col bg-white text-gray-600 w-full h-full"}>
                     <Content>
                         <div className={"text-center sm:mx-auto sm:max-w-2xl"}>
                             <img src={memoji}
@@ -58,7 +59,8 @@ class IndexPage extends React.Component {
                                data-aos-delay={"2000"}
                                data-aos-duration={"750"}
                                data-aos-offset={"0"}>
-                                <a href="mailto:jamie.wade.contact@icloud.com" className={"rounded bg-indigo-600 p-2.5 text-white sm:p-3 sm:text-lg md:p-3.5 md:text-xl duration-300 hover:bg-indigo-700"}>Get in touch</a>
+                                <a href={"mailto:jamie.wade.contact@icloud.com"}
+                                   className={"rounded bg-indigo-600 p-2.5 text-white sm:p-3 sm:text-lg md:p-3.5 md:text-xl duration-300 hover:bg-indigo-700"}>Get in touch</a>
                             </p>
                         </div>
                     </Content>
