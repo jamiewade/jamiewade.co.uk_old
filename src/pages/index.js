@@ -17,7 +17,7 @@ class IndexPage extends React.Component {
                 <Helmet>
                     <title>Welcome | Jamie Wade - Front-end Developer</title>
                     <meta name={"description"}
-                          content={"Jamie Wade is a Front-end Developer based in the UK. Jamie has years of experience working with Craft CMS, as well as experience with using tools such as Gatsby, Alpine.js, Tailwind, Shopify, Vue, and Laravel."} />
+                          content={"Jamie Wade is a Front-end Developer based in the UK. Jamie has years of experience working with Craft CMS, as well as experience with using tools such as Tailwind, PostCSS, JavaScript, Alpine.js, React, Gatsby, Next.js, Shopify, Laravel, and Python."} />
                 </Helmet>
 
                 <div className={"flex flex-col bg-white text-gray-600 w-full h-full"}>
@@ -38,21 +38,26 @@ class IndexPage extends React.Component {
                                 data-aos-easing={"ease-in-back"}
                                 data-aos-delay={"250"}
                                 data-aos-duration={"750"}
-                                data-aos-offset={"0"}>Nice to meet you <span role={"img"} aria-label={"Waving hand emoji"}>👋</span></h1>
+                                data-aos-offset={"0"}>
+                                <span>Nice to meet you </span>
+
+                                <span role={"img"}
+                                      aria-label={"Waving hand emoji"}>👋</span>
+                            </h1>
 
                             <p className={"mb-2 sm:mb-3 sm:text-lg md:text-xl"}
                                data-aos={"fade-zoom-in"}
                                data-aos-easing={"ease-in-back"}
                                data-aos-delay={"1000"}
                                data-aos-duration={"750"}
-                               data-aos-offset={"0"}>I'm Jamie Wade. I'm a Front-end Developer based in the UK, working with Craft CMS, Tailwind, Gatsby, and Alpine.js.</p>
+                               data-aos-offset={"0"}>I'm Jamie Wade. I'm a Front-end Developer based in the UK, working with Craft CMS, Tailwind, PostCSS, JavaScript, and Alpine.js.</p>
 
                             <p className={"mb-8 text-gray-400 sm:mb-10 md:mb-10 md:text-lg"}
                                data-aos={"fade-zoom-in"}
                                data-aos-easing={"ease-in-back"}
                                data-aos-delay={"1500"}
                                data-aos-duration={"750"}
-                               data-aos-offset={"0"}>I also have experience with Shopify, Vue, and Laravel.</p>
+                               data-aos-offset={"0"}>I also have experience with React, specifically Gatsby and Next.js, as well as experience with Shopify, Laravel, and Python.</p>
 
                             <p data-aos={"fade-zoom-in"}
                                data-aos-easing={"ease-in-back"}
