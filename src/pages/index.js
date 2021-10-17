@@ -15,7 +15,7 @@ class IndexPage extends React.Component {
         return(
             <>
                 <Helmet>
-                    <title>Welcome | Jamie Wade</title>
+                    <title>Welcome | Jamie Wade - Front-end Developer</title>
                     <meta name={"description"}
                           content={"Jamie Wade is a Front-end Developer based in the UK. Jamie has years of experience working with Craft CMS, as well as experience with using tools such as Gatsby, Alpine.js, Tailwind, Shopify, Vue, and Laravel."} />
                 </Helmet>
