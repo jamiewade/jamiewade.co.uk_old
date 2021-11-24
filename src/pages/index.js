@@ -56,7 +56,7 @@ class IndexPage extends React.Component {
 								data-aos-easing={"ease-in-back"}
 								data-aos-delay={"1000"}
 								data-aos-duration={"750"}
-								data-aos-offset={"0"}>I'm Jamie Wade. I'm a Front-end Developer based in the UK, working with Craft CMS, Tailwind, PostCSS, JavaScript, and Alpine.js.</p>
+								data-aos-offset={"0"}>I'm Jamie Wade. I'm a Front-end Developer based in the UK, working with Craft CMS, GraphQL, Tailwind, and Next.js.</p>
 
 							<p
 								className={"mb-8 text-gray-400 sm:mb-10 md:mb-10 md:text-lg"}
@@ -64,7 +64,7 @@ class IndexPage extends React.Component {
 								data-aos-easing={"ease-in-back"}
 								data-aos-delay={"1500"}
 								data-aos-duration={"750"}
-								data-aos-offset={"0"}>I also have experience with React, specifically Gatsby and Next.js, as well as experience with Shopify, Laravel, and Python.</p>
+								data-aos-offset={"0"}>I also have experience with Shopify, PHP, Laravel, and Python, and other React frameworks such as React Native, and Gatsby.</p>
 
 							<p
 								data-aos={"fade-zoom-in"}
