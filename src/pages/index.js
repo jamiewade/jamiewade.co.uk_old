@@ -73,8 +73,9 @@ class IndexPage extends React.Component {
 								data-aos-duration={"750"}
 								data-aos-offset={"0"}>
 								<a
-									href={"mailto:jamie.wade.contact@icloud.com"}
-									className={"rounded bg-indigo-600 p-2.5 text-white sm:p-3 sm:text-lg md:p-3.5 md:text-xl duration-300 hover:bg-indigo-700"}>Get in touch</a>
+									href={"https://github.com/jamiewade"}
+									className={"rounded bg-indigo-600 p-2.5 text-white sm:p-3 sm:text-lg md:p-3.5 md:text-xl duration-300 hover:bg-indigo-700"}
+									target="_blank">Find me on GitHub</a>
 							</p>
 						</div>
 					</Content>
